@@ -1,9 +1,13 @@
 {
-  "updated_at": "2026-06-10T17:59:40.512839+00:00",
+  "updated_at": "2026-06-10T22:52:18.921064+00:00",
   "data_referencia": "2026-06-10",
   "airport_icao": "SBSV",
   "airport_name": "Salvador",
-  "airport_info": {},
+  "airport_info": {
+    "sg_aerodromo_icao": "SBSV",
+    "sg_aerodromo_iata": "SSA",
+    "descricao": "DEPUTADO LUÍS EDUARDO MAGALHÃES - SALVADOR - BA - BRASIL"
+  },
   "source": "SIROS/ANAC",
   "source_url": "https://sas.anac.gov.br/sas/siros_api/",
   "arrivals": [
