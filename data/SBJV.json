@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T16:23:19.473264+00:00",
+  "updated_at": "2026-06-14T22:12:41.866603+00:00",
   "data_referencia": "2026-06-14",
   "airport_icao": "SBJV",
   "airport_name": "Joinville",
@@ -142,28 +142,6 @@
       "fonte": "SIROS/ANAC",
       "rota": "SBKP",
       "rota_nome": "Campinas / Viracopos"
-    },
-    {
-      "callsign": "GLO1200",
-      "numero_voo": "1200",
-      "airline_icao": "GLO",
-      "airline": "GOL",
-      "equipamento_icao": "B738",
-      "equipamento": "Boeing 737-800",
-      "assentos": "186",
-      "etapa": "1",
-      "tipo_operacao": "Domestico",
-      "tipo_servico": "REGULAR DE PASSAGEIROS DOMÉSTICA",
-      "origem_icao": "SBSP",
-      "destino_icao": "SBJV",
-      "partida_iso": "2026-06-14T10:00:00-03:00",
-      "chegada_iso": "2026-06-14T11:05:00-03:00",
-      "partida_brt": "10:00",
-      "chegada_brt": "11:05",
-      "status": "programado",
-      "fonte": "SIROS/ANAC",
-      "rota": "SBSP",
-      "rota_nome": "Sao Paulo / Congonhas"
     },
     {
       "callsign": "GLO1200",

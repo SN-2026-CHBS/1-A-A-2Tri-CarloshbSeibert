@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T16:23:29.787615+00:00",
+  "updated_at": "2026-06-14T22:12:52.331203+00:00",
   "data_referencia": "2026-06-14",
   "airport_icao": "SBSV",
   "airport_name": "Salvador",
@@ -648,28 +648,6 @@
       "fonte": "SIROS/ANAC",
       "rota": "SBGL",
       "rota_nome": "Rio de Janeiro / Galeao"
-    },
-    {
-      "callsign": "TAM9070",
-      "numero_voo": "9070",
-      "airline_icao": "TAM",
-      "airline": "LATAM",
-      "equipamento_icao": "A319",
-      "equipamento": "Airbus A319",
-      "assentos": "144",
-      "etapa": "1",
-      "tipo_operacao": "Domestico",
-      "tipo_servico": "REGULAR DE PASSAGEIROS DOMÉSTICA",
-      "origem_icao": "SBRJ",
-      "destino_icao": "SBSV",
-      "partida_iso": "2026-06-14T07:05:00-03:00",
-      "chegada_iso": "2026-06-14T09:00:00-03:00",
-      "partida_brt": "07:05",
-      "chegada_brt": "09:00",
-      "status": "programado",
-      "fonte": "SIROS/ANAC",
-      "rota": "SBRJ",
-      "rota_nome": "Rio / Santos Dumont"
     },
     {
       "callsign": "TAM3672",
