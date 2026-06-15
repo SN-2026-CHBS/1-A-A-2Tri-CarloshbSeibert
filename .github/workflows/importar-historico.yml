@@ -40,6 +40,6 @@ jobs:
         run: python scripts/fetch_historico_anac.py
         env:
           AIRPORTS:             ${{ vars.AIRPORTS || 'SBCA,SBGR,SBSP,SBCT,SBGL,SBBR,SBFL,SBPA,SBSV,SBFZ' }}
-          SUPABASE_URL:         ${{ https://yzzprqdyoxwpvyeavcvp.supabase.co }}
-          SUPABASE_SERVICE_KEY: ${{ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inl6enBycWR5b3h3cHZ5ZWF2Y3ZwIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MDg5MjI0NiwiZXhwIjoyMDk2NDY4MjQ2fQ.GA7O5bgiz0pym2W1hxE10S_gX7ljakwvIIlwNmWt4wk }}
+          SUPABASE_URL:         ${{ SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ SUPABASE_SERVICE_KEY }}
           ANO_MES:              ${{ github.event.inputs.ano_mes }}
