@@ -40,6 +40,6 @@ jobs:
         run: python scripts/fetch_historico_anac.py
         env:
           AIRPORTS:             ${{ vars.AIRPORTS || 'SBCA,SBGR,SBSP,SBCT,SBGL,SBBR,SBFL,SBPA,SBSV,SBFZ' }}
-          SUPABASE_URL:         ${{ SUPABASE_URL }}
-          SUPABASE_SERVICE_KEY: ${{ SUPABASE_SERVICE_KEY }}
+          SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
           ANO_MES:              ${{ github.event.inputs.ano_mes }}
